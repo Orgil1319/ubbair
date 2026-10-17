@@ -7,6 +7,8 @@ FROM node:20-alpine AS build
 WORKDIR /app
 ARG API_URL=http://backend:8000
 ENV API_URL=$API_URL
+ARG NEXT_PUBLIC_CARTO_KEY=
+ENV NEXT_PUBLIC_CARTO_KEY=$NEXT_PUBLIC_CARTO_KEY
 ENV NEXT_TELEMETRY_DISABLED=1
 COPY --from=deps /app/node_modules ./node_modules
 COPY . .

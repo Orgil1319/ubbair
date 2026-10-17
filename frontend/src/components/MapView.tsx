@@ -15,6 +15,14 @@ import "leaflet/dist/leaflet.css";
 
 import { getRiskZones } from "@/lib/api";
 
+const CARTO_KEY = process.env.NEXT_PUBLIC_CARTO_KEY ?? "";
+const TILE_URL = CARTO_KEY
+  ? `https://basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}.png?key=${CARTO_KEY}`
+  : "https://tile.openstreetmap.org/{z}/{x}/{y}.png";
+const TILE_ATTRIBUTION = CARTO_KEY
+  ? "&copy; OpenStreetMap contributors &copy; CARTO"
+  : "&copy; OpenStreetMap contributors";
+
 interface Property {
   id: string;
   title: string;
@@ -281,10 +289,10 @@ export default function MapView({
         <ZoomControl position="topright" />
 
         <TileLayer
-          attribution="&copy; OpenStreetMap contributors &copy; CARTO"
-          url="https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png"
-          subdomains="abcd"
-          maxZoom={20}
+          attribution={TILE_ATTRIBUTION}
+          url={TILE_URL}
+          referrerPolicy="strict-origin-when-cross-origin"
+          maxZoom={19}
         />
 
         {/* Flood */}

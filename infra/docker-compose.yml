@@ -4,6 +4,7 @@ services:
   postgres:
     build: ./postgres
     image: ubbbair-postgres:16
+    restart: unless-stopped
     environment:
       POSTGRES_DB: ${POSTGRES_DB:?Set POSTGRES_DB in the project .env file}
       POSTGRES_USER: ${POSTGRES_USER:?Set POSTGRES_USER in the project .env file}
@@ -20,6 +21,7 @@ services:
 
   redis:
     image: redis:7-alpine
+    restart: unless-stopped
     ports:
       - "127.0.0.1:${REDIS_PORT:-6379}:6379"
     volumes:
@@ -67,7 +69,7 @@ services:
     volumes:
       - ../backend:/app
       - ../data-pipeline/output:/data-pipeline-output:ro
-    command: uvicorn app.main:app --host 0.0.0.0 --port 8000 --reload
+    command: uvicorn app.main:app --host 0.0.0.0 --port 8000
     restart: unless-stopped
 
   frontend:
@@ -75,6 +77,7 @@ services:
       context: ../frontend
       args:
         API_URL: http://backend:8000
+        NEXT_PUBLIC_CARTO_KEY: ${CARTO_KEY:-}
     image: ubbbair-frontend
     ports:
       - "3000:3000"

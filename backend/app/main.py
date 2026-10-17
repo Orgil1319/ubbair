@@ -1,4 +1,5 @@
 from contextlib import asynccontextmanager
+import asyncio
 import logging
 import asyncpg
 import redis.asyncio as aioredis
@@ -17,7 +18,15 @@ logger = logging.getLogger(__name__)
 async def lifespan(app: FastAPI):
     # Startup
     db_url = settings.DATABASE_URL.replace("postgresql+asyncpg://", "postgresql://")
-    app.state.db = await asyncpg.create_pool(db_url)
+    for attempt in range(60):
+        try:
+            app.state.db = await asyncpg.create_pool(db_url)
+            break
+        except (OSError, asyncio.TimeoutError, asyncpg.PostgresError) as e:
+            if attempt == 59:
+                raise
+            logger.warning(f"DB бэлэн болоогүй байна ({e}), 2 секундын дараа дахин оролдоно")
+            await asyncio.sleep(2)
     app.state.redis = aioredis.from_url(settings.REDIS_URL, decode_responses=True)
     logger.info("DB болон Redis холбогдлоо")
     yield
