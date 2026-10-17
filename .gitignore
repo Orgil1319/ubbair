@@ -1,0 +1,21 @@
+# Local environment and credentials
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Frontend
+node_modules/
+.next/
+out/
+
+# Local databases and generated artifacts
+.chromadb/
+*.sqlite
+*.sqlite3

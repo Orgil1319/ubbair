@@ -1,0 +1,133 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-safe: #10b981;
+  --color-warning: #f59e0b;
+  --color-danger: #ef4444;
+  --color-brand: #2563eb;
+  --color-brand-light: #eff6ff;
+  --surface: rgba(255, 255, 255, 0.82);
+  --surface-strong: rgba(255, 255, 255, 0.92);
+  --border: rgba(148, 163, 184, 0.22);
+  --text: #0f172a;
+  --muted: #475569;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    font-family: var(--font-inter), system-ui, sans-serif;
+    color: var(--text);
+    background:
+      radial-gradient(circle at top, rgba(191, 219, 254, 0.35), transparent 28%),
+      radial-gradient(circle at right top, rgba(224, 231, 255, 0.35), transparent 22%),
+      linear-gradient(180deg, #f8fbff 0%, #f8fafc 45%, #f1f5f9 100%);
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    @apply selection:bg-blue-500/25 selection:text-slate-900;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  ::selection {
+    background: rgba(59, 130, 246, 0.18);
+  }
+}
+
+@layer components {
+  .app-shell {
+    @apply min-h-screen text-slate-900;
+  }
+
+  .btn-primary {
+    @apply inline-flex items-center justify-center rounded-2xl border border-transparent bg-gradient-to-r from-blue-600 via-indigo-600 to-violet-600 px-5 py-2.5 text-sm font-semibold text-white shadow-[0_18px_28px_-16px_rgba(79,70,229,0.75)] transition-all duration-300 hover:-translate-y-0.5 hover:shadow-[0_22px_34px_-18px_rgba(79,70,229,0.9)] active:translate-y-0 disabled:cursor-not-allowed disabled:opacity-50;
+  }
+
+  .btn-secondary {
+    @apply inline-flex items-center justify-center rounded-2xl border border-slate-200/80 bg-white/85 px-5 py-2.5 text-sm font-semibold text-slate-700 shadow-sm backdrop-blur-xl transition-all duration-300 hover:-translate-y-0.5 hover:border-slate-300 hover:bg-white hover:shadow-md active:translate-y-0;
+  }
+
+  .card {
+    @apply rounded-3xl border border-slate-200/80 bg-white/85 shadow-[0_18px_34px_-18px_rgba(15,23,42,0.35)] backdrop-blur-xl transition-all duration-300 hover:-translate-y-1 hover:border-slate-300 hover:shadow-[0_24px_44px_-18px_rgba(15,23,42,0.45)];
+  }
+
+  .surface-card {
+    @apply rounded-3xl border border-white/80 bg-white/85 shadow-[0_18px_34px_-18px_rgba(15,23,42,0.35)] backdrop-blur-2xl;
+  }
+
+  .input {
+    @apply w-full rounded-2xl border border-slate-200/80 bg-white/90 px-4 py-3.5 text-sm text-slate-900 shadow-sm transition-all duration-300 placeholder:text-slate-400 focus:border-blue-500 focus:outline-none focus:ring-4 focus:ring-blue-500/10;
+  }
+
+  .label {
+    @apply mb-1.5 block text-sm font-semibold text-slate-700;
+  }
+
+  .section-title {
+    @apply bg-gradient-to-r from-slate-900 via-slate-800 to-slate-600 bg-clip-text text-2xl font-bold tracking-tight text-transparent;
+  }
+
+  .glass-panel {
+    @apply rounded-3xl border border-white/70 bg-white/70 shadow-[0_18px_36px_-18px_rgba(15,23,42,0.35)] backdrop-blur-2xl;
+  }
+
+  .page-shell {
+    @apply mx-auto w-full max-w-6xl px-4 py-8 md:px-6;
+  }
+
+  .page-title {
+    @apply text-2xl font-bold tracking-tight text-slate-900 md:text-3xl;
+  }
+
+  .page-copy {
+    @apply text-sm leading-6 text-slate-500 md:text-base;
+  }
+
+  .soft-badge {
+    @apply inline-flex items-center rounded-full border border-slate-200 bg-slate-50 px-3 py-1 text-[11px] font-semibold uppercase tracking-[0.18em] text-slate-600;
+  }
+
+  .eyebrow {
+    @apply inline-flex items-center gap-2 rounded-full border border-blue-100 bg-blue-50/90 px-4 py-2 text-[11px] font-semibold uppercase tracking-[0.25em] text-blue-700 shadow-sm;
+  }
+}
+
+/* Custom Animations */
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
+.animate-float-delayed {
+  animation: float 6s ease-in-out 3s infinite;
+}
+@keyframes float {
+  0% { transform: translateY(0px) rotate(0deg); }
+  50% { transform: translateY(-14px) rotate(1.6deg); }
+  100% { transform: translateY(0px) rotate(0deg); }
+}
+
+.text-gradient {
+  @apply bg-gradient-to-r from-blue-600 via-indigo-600 to-violet-600 bg-clip-text text-transparent;
+}
+
+/* Mapbox overrides */
+.mapboxgl-popup-content {
+  @apply rounded-xl shadow-lg border border-slate-100 p-0 overflow-hidden;
+}
+.mapboxgl-popup-close-button {
+  @apply text-slate-400 hover:text-slate-700 text-lg pr-2 pt-1;
+}
+
+/* Leaflet overrides */
+.leaflet-container {
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+}

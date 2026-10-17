@@ -1,0 +1,2234 @@
+{
+  "scraped_at": "2026-06-17T11:54:42.007516",
+  "source": "https://mcud.gov.mn",
+  "license_articles": [
+    {
+      "article_id": 1725,
+      "url": "https://mcud.gov.mn/a/1725",
+      "scraped_at": "2026-06-17T11:54:47.363292",
+      "files": [
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/File/2026/03/26/gqju8nvr1l0cjzq5/БАРИЛГА БАЙГУУЛАМЖ 2026.01.30-НЫ ӨДРИЙН БАЙДЛААР OPENDATA 1 1.pdf",
+          "text": "ЭНД",
+          "extension": ".pdf",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/a1725_БАРИЛГА БАЙГУУЛАМЖ 2026.01.30-НЫ ӨДРИЙН БАЙДЛААР OPENDATA 1 1.pdf",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon.ico",
+          "text": "unknown",
+          "extension": ".ico",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/a1725_favicon.ico",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-196.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/a1725_favicon-196.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-32.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/a1725_favicon-32.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-76.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/a1725_favicon-76.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-96.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/a1725_favicon-96.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-128.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/a1725_favicon-128.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-57.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/a1725_favicon-57.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-60.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/a1725_favicon-60.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-72.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/a1725_favicon-72.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-114.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/a1725_favicon-114.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-120.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/a1725_favicon-120.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-144.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/a1725_favicon-144.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-152.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/a1725_favicon-152.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-180.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/a1725_favicon-180.png",
+          "success": true
+        }
+      ],
+      "type": "construction_work",
+      "desc": "Барилгын ажил эрхлэх тусгай зөвшөөрөл"
+    },
+    {
+      "article_id": 1726,
+      "url": "https://mcud.gov.mn/a/1726",
+      "scraped_at": "2026-06-17T11:54:48.912203",
+      "files": [
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/File/2026/03/26/83noad2yxeqrx0vt/ЗУРАГ ТӨСӨЛ 2026.01.30-НЫ ӨДРИЙН БАЙДЛААР OPENDATA 1.pdf",
+          "text": "ЭНД",
+          "extension": ".pdf",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/a1726_ЗУРАГ ТӨСӨЛ 2026.01.30-НЫ ӨДРИЙН БАЙДЛААР OPENDATA 1.pdf",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon.ico",
+          "text": "unknown",
+          "extension": ".ico",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/a1726_favicon.ico",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-196.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/a1726_favicon-196.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-32.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/a1726_favicon-32.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-76.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/a1726_favicon-76.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-96.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/a1726_favicon-96.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-128.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/a1726_favicon-128.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-57.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/a1726_favicon-57.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-60.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/a1726_favicon-60.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-72.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/a1726_favicon-72.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-114.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/a1726_favicon-114.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-120.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/a1726_favicon-120.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-144.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/a1726_favicon-144.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-152.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/a1726_favicon-152.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-180.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/a1726_favicon-180.png",
+          "success": true
+        }
+      ],
+      "type": "design",
+      "desc": "Зураг төсөл боловсруулах тусгай зөвшөөрөл"
+    },
+    {
+      "article_id": 1746,
+      "url": "https://mcud.gov.mn/a/1746",
+      "scraped_at": "2026-06-17T11:54:50.260253",
+      "files": [
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/File/2026/06/11/tbl118x73hxwsuzv/Хот байгуулалтын баримт бичиг боловсруулах эрхтэй ААН 2026.06.pdf",
+          "text": "ХОТ БАЙГУУЛАЛТЫН БАРИМТ БИЧИГ БОЛОВСРУУЛАХ ЭРХИЙН ЗӨВШӨӨРӨЛТЭЙ АЖ АХУЙН НЭГЖ, БАЙГУУЛЛАГЫН МЭДЭЭЛЭЛ 2026 ОНЫ 06 САРЫН БАЙДЛААР",
+          "extension": ".pdf",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/a1746_Хот байгуулалтын баримт бичиг боловсруулах эрхтэй ААН 2026.06.pdf",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon.ico",
+          "text": "unknown",
+          "extension": ".ico",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/a1746_favicon.ico",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-196.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/a1746_favicon-196.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-32.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/a1746_favicon-32.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-76.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/a1746_favicon-76.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-96.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/a1746_favicon-96.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-128.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/a1746_favicon-128.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-57.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/a1746_favicon-57.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-60.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/a1746_favicon-60.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-72.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/a1746_favicon-72.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-114.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/a1746_favicon-114.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-120.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/a1746_favicon-120.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-144.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/a1746_favicon-144.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-152.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/a1746_favicon-152.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-180.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/a1746_favicon-180.png",
+          "success": true
+        }
+      ],
+      "type": "urban_planning",
+      "desc": "Хот байгуулалтын зөвшөөрөл"
+    },
+    {
+      "article_id": 1738,
+      "url": "https://mcud.gov.mn/a/1738",
+      "scraped_at": "2026-06-17T11:54:54.374375",
+      "files": [
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/File/2026/04/15/f9of9zo6zkhd0u67/ХББОСЯ-ны 2025 гүйцэтгэлийн тайлан хяналт.pdf",
+          "text": "ХОТ БАЙГУУЛАЛТ, БАРИЛГА, ОРОН СУУЦЖУУЛАЛТЫН ЯАМНЫ 2025 ОНЫ ГҮЙЦЭТГЭЛИЙН ТӨЛӨВЛӨГӨӨНИЙ ХЭРЭГЖИЛТЭНД ХИЙСЭН ХЯНАЛТ-ШИНЖИЛГЭЭ, ҮНЭЛГЭЭНИЙ ТАЙЛАН",
+          "extension": ".pdf",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/a1738_ХББОСЯ-ны 2025 гүйцэтгэлийн тайлан хяналт.pdf",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon.ico",
+          "text": "unknown",
+          "extension": ".ico",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/a1738_favicon.ico",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-196.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/a1738_favicon-196.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-32.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/a1738_favicon-32.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-76.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/a1738_favicon-76.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-96.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/a1738_favicon-96.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-128.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/a1738_favicon-128.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-57.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/a1738_favicon-57.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-60.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/a1738_favicon-60.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-72.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/a1738_favicon-72.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-114.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/a1738_favicon-114.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-120.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/a1738_favicon-120.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-144.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/a1738_favicon-144.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-152.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/a1738_favicon-152.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-180.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/a1738_favicon-180.png",
+          "success": true
+        }
+      ],
+      "type": "auto_found",
+      "desc": "ХОТ БАЙГУУЛАЛТ, БАРИЛГА, ОРОН СУУЦЖУУЛАЛТЫН ЯАМНЫ 2025 ОНЫ ГҮЙЦЭТГЭЛИЙН ТӨЛӨВЛӨГ"
+    },
+    {
+      "article_id": 1731,
+      "url": "https://mcud.gov.mn/a/1731",
+      "scraped_at": "2026-06-17T11:54:55.660159",
+      "files": [
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon.ico",
+          "text": "unknown",
+          "extension": ".ico",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/a1731_favicon.ico",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-196.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/a1731_favicon-196.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-32.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/a1731_favicon-32.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-76.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/a1731_favicon-76.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-96.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/a1731_favicon-96.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-128.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/a1731_favicon-128.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-57.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/a1731_favicon-57.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-60.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/a1731_favicon-60.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-72.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/a1731_favicon-72.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-114.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/a1731_favicon-114.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-120.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/a1731_favicon-120.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-144.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/a1731_favicon-144.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-152.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/a1731_favicon-152.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-180.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/a1731_favicon-180.png",
+          "success": true
+        }
+      ],
+      "type": "auto_found",
+      "desc": "Хот байгуулалт барилга, орон сууцжуулалтын сайдын иргэдийг хүлээн авч уулзах өдр"
+    },
+    {
+      "article_id": 1724,
+      "url": "https://mcud.gov.mn/a/1724",
+      "scraped_at": "2026-06-17T11:54:57.335683",
+      "files": [
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/File/2026/03/23/fwurfab91ixkdp44/ХББОСЯ-ны 2025 оны нэгдсэн тайлан.pdf",
+          "text": "ХОТ БАЙГУУЛАЛТ, БАРИЛГА, ОРОН СУУЦЖУУЛАЛТЫН ЯАМНЫ 2025 ОНЫ ҮЙЛ АЖИЛЛАГААНД ХЯНАЛТ-ШИНЖИЛГЭЭ, ҮНЭЛГЭЭ ХИЙСЭН АЖЛЫН НЭГДСЭН ТАЙЛАН",
+          "extension": ".pdf",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/a1724_ХББОСЯ-ны 2025 оны нэгдсэн тайлан.pdf",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon.ico",
+          "text": "unknown",
+          "extension": ".ico",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/a1724_favicon.ico",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-196.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/a1724_favicon-196.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-32.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/a1724_favicon-32.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-76.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/a1724_favicon-76.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-96.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/a1724_favicon-96.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-128.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/a1724_favicon-128.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-57.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/a1724_favicon-57.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-60.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/a1724_favicon-60.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-72.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/a1724_favicon-72.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-114.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/a1724_favicon-114.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-120.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/a1724_favicon-120.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-144.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/a1724_favicon-144.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-152.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/a1724_favicon-152.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-180.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/a1724_favicon-180.png",
+          "success": true
+        }
+      ],
+      "type": "auto_found",
+      "desc": "ХОТ БАЙГУУЛАЛТ, БАРИЛГА, ОРОН СУУЦЖУУЛАЛТЫН ЯАМНЫ 2025 ОНЫ ҮЙЛ АЖИЛЛАГААНД ХЯНАЛ"
+    }
+  ],
+  "building_passports": [
+    {
+      "page_id": 357,
+      "url": "https://mcud.gov.mn/p/357",
+      "metadata": {
+        "id": 357,
+        "district": "Баянгол",
+        "type": "residential"
+      },
+      "scraped_at": "2026-06-17T11:54:59.095242",
+      "files": [
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon.ico",
+          "text": "unknown",
+          "extension": ".ico",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/passport_residential_Баянгол_favicon.ico",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-196.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/passport_residential_Баянгол_favicon-196.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-32.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/passport_residential_Баянгол_favicon-32.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-76.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/passport_residential_Баянгол_favicon-76.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-96.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/passport_residential_Баянгол_favicon-96.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-128.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/passport_residential_Баянгол_favicon-128.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-57.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/passport_residential_Баянгол_favicon-57.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-60.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/passport_residential_Баянгол_favicon-60.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-72.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/passport_residential_Баянгол_favicon-72.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-114.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/passport_residential_Баянгол_favicon-114.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-120.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/passport_residential_Баянгол_favicon-120.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-144.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/passport_residential_Баянгол_favicon-144.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-152.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/passport_residential_Баянгол_favicon-152.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-180.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/passport_residential_Баянгол_favicon-180.png",
+          "success": true
+        }
+      ]
+    },
+    {
+      "page_id": 358,
+      "url": "https://mcud.gov.mn/p/358",
+      "metadata": {
+        "id": 358,
+        "district": "Баянзүрх",
+        "type": "residential"
+      },
+      "scraped_at": "2026-06-17T11:55:00.036359",
+      "files": [
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon.ico",
+          "text": "unknown",
+          "extension": ".ico",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/passport_residential_Баянзүрх_favicon.ico",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-196.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/passport_residential_Баянзүрх_favicon-196.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-32.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/passport_residential_Баянзүрх_favicon-32.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-76.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/passport_residential_Баянзүрх_favicon-76.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-96.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/passport_residential_Баянзүрх_favicon-96.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-128.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/passport_residential_Баянзүрх_favicon-128.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-57.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/passport_residential_Баянзүрх_favicon-57.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-60.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/passport_residential_Баянзүрх_favicon-60.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-72.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/passport_residential_Баянзүрх_favicon-72.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-114.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/passport_residential_Баянзүрх_favicon-114.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-120.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/passport_residential_Баянзүрх_favicon-120.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-144.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/passport_residential_Баянзүрх_favicon-144.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-152.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/passport_residential_Баянзүрх_favicon-152.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-180.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/passport_residential_Баянзүрх_favicon-180.png",
+          "success": true
+        }
+      ]
+    },
+    {
+      "page_id": 359,
+      "url": "https://mcud.gov.mn/p/359",
+      "metadata": {
+        "id": 359,
+        "district": "Сонгинохайрхан",
+        "type": "residential"
+      },
+      "scraped_at": "2026-06-17T11:55:00.893843",
+      "files": [
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon.ico",
+          "text": "unknown",
+          "extension": ".ico",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/passport_residential_Сонгинохайрхан_favicon.ico",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-196.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/passport_residential_Сонгинохайрхан_favicon-196.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-32.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/passport_residential_Сонгинохайрхан_favicon-32.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-76.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/passport_residential_Сонгинохайрхан_favicon-76.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-96.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/passport_residential_Сонгинохайрхан_favicon-96.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-128.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/passport_residential_Сонгинохайрхан_favicon-128.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-57.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/passport_residential_Сонгинохайрхан_favicon-57.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-60.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/passport_residential_Сонгинохайрхан_favicon-60.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-72.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/passport_residential_Сонгинохайрхан_favicon-72.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-114.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/passport_residential_Сонгинохайрхан_favicon-114.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-120.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/passport_residential_Сонгинохайрхан_favicon-120.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-144.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/passport_residential_Сонгинохайрхан_favicon-144.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-152.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/passport_residential_Сонгинохайрхан_favicon-152.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-180.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/passport_residential_Сонгинохайрхан_favicon-180.png",
+          "success": true
+        }
+      ]
+    },
+    {
+      "page_id": 360,
+      "url": "https://mcud.gov.mn/p/360",
+      "metadata": {
+        "id": 360,
+        "district": "Сүхбаатар",
+        "type": "residential"
+      },
+      "scraped_at": "2026-06-17T11:55:01.712994",
+      "files": [
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon.ico",
+          "text": "unknown",
+          "extension": ".ico",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/passport_residential_Сүхбаатар_favicon.ico",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-196.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/passport_residential_Сүхбаатар_favicon-196.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-32.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/passport_residential_Сүхбаатар_favicon-32.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-76.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/passport_residential_Сүхбаатар_favicon-76.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-96.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/passport_residential_Сүхбаатар_favicon-96.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-128.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/passport_residential_Сүхбаатар_favicon-128.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-57.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/passport_residential_Сүхбаатар_favicon-57.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-60.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/passport_residential_Сүхбаатар_favicon-60.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-72.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/passport_residential_Сүхбаатар_favicon-72.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-114.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/passport_residential_Сүхбаатар_favicon-114.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-120.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/passport_residential_Сүхбаатар_favicon-120.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-144.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/passport_residential_Сүхбаатар_favicon-144.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-152.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/passport_residential_Сүхбаатар_favicon-152.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-180.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/passport_residential_Сүхбаатар_favicon-180.png",
+          "success": true
+        }
+      ]
+    },
+    {
+      "page_id": 361,
+      "url": "https://mcud.gov.mn/p/361",
+      "metadata": {
+        "id": 361,
+        "district": "Хан-Уул",
+        "type": "residential"
+      },
+      "scraped_at": "2026-06-17T11:55:02.503871",
+      "files": [
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon.ico",
+          "text": "unknown",
+          "extension": ".ico",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/passport_residential_Хан-Уул_favicon.ico",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-196.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/passport_residential_Хан-Уул_favicon-196.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-32.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/passport_residential_Хан-Уул_favicon-32.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-76.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/passport_residential_Хан-Уул_favicon-76.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-96.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/passport_residential_Хан-Уул_favicon-96.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-128.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/passport_residential_Хан-Уул_favicon-128.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-57.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/passport_residential_Хан-Уул_favicon-57.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-60.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/passport_residential_Хан-Уул_favicon-60.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-72.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/passport_residential_Хан-Уул_favicon-72.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-114.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/passport_residential_Хан-Уул_favicon-114.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-120.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/passport_residential_Хан-Уул_favicon-120.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-144.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/passport_residential_Хан-Уул_favicon-144.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-152.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/passport_residential_Хан-Уул_favicon-152.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-180.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/passport_residential_Хан-Уул_favicon-180.png",
+          "success": true
+        }
+      ]
+    },
+    {
+      "page_id": 362,
+      "url": "https://mcud.gov.mn/p/362",
+      "metadata": {
+        "id": 362,
+        "district": "Чингэлтэй",
+        "type": "residential"
+      },
+      "scraped_at": "2026-06-17T11:55:03.210946",
+      "files": [
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon.ico",
+          "text": "unknown",
+          "extension": ".ico",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/passport_residential_Чингэлтэй_favicon.ico",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-196.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/passport_residential_Чингэлтэй_favicon-196.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-32.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/passport_residential_Чингэлтэй_favicon-32.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-76.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/passport_residential_Чингэлтэй_favicon-76.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-96.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/passport_residential_Чингэлтэй_favicon-96.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-128.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/passport_residential_Чингэлтэй_favicon-128.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-57.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/passport_residential_Чингэлтэй_favicon-57.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-60.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/passport_residential_Чингэлтэй_favicon-60.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-72.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/passport_residential_Чингэлтэй_favicon-72.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-114.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/passport_residential_Чингэлтэй_favicon-114.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-120.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/passport_residential_Чингэлтэй_favicon-120.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-144.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/passport_residential_Чингэлтэй_favicon-144.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-152.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/passport_residential_Чингэлтэй_favicon-152.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-180.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/passport_residential_Чингэлтэй_favicon-180.png",
+          "success": true
+        }
+      ]
+    },
+    {
+      "page_id": 363,
+      "url": "https://mcud.gov.mn/p/363",
+      "metadata": {
+        "id": 363,
+        "district": "Багахангай/Налайх/Багануур",
+        "type": "residential"
+      },
+      "scraped_at": "2026-06-17T11:55:04.293256",
+      "files": [
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon.ico",
+          "text": "unknown",
+          "extension": ".ico",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/passport_residential_Багахангай_Налайх_Багануур_favicon.ico",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-196.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/passport_residential_Багахангай_Налайх_Багануур_favicon-196.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-32.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/passport_residential_Багахангай_Налайх_Багануур_favicon-32.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-76.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/passport_residential_Багахангай_Налайх_Багануур_favicon-76.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-96.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/passport_residential_Багахангай_Налайх_Багануур_favicon-96.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-128.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/passport_residential_Багахангай_Налайх_Багануур_favicon-128.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-57.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/passport_residential_Багахангай_Налайх_Багануур_favicon-57.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-60.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/passport_residential_Багахангай_Налайх_Багануур_favicon-60.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-72.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/passport_residential_Багахангай_Налайх_Багануур_favicon-72.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-114.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/passport_residential_Багахангай_Налайх_Багануур_favicon-114.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-120.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/passport_residential_Багахангай_Налайх_Багануур_favicon-120.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-144.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/passport_residential_Багахангай_Налайх_Багануур_favicon-144.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-152.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/passport_residential_Багахангай_Налайх_Багануур_favicon-152.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-180.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/passport_residential_Багахангай_Налайх_Багануур_favicon-180.png",
+          "success": true
+        }
+      ]
+    },
+    {
+      "page_id": 364,
+      "url": "https://mcud.gov.mn/p/364",
+      "metadata": {
+        "id": 364,
+        "district": "Баянгол",
+        "type": "public"
+      },
+      "scraped_at": "2026-06-17T11:55:04.989783",
+      "files": [
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon.ico",
+          "text": "unknown",
+          "extension": ".ico",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/passport_public_Баянгол_favicon.ico",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-196.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/passport_public_Баянгол_favicon-196.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-32.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/passport_public_Баянгол_favicon-32.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-76.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/passport_public_Баянгол_favicon-76.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-96.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/passport_public_Баянгол_favicon-96.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-128.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/passport_public_Баянгол_favicon-128.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-57.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/passport_public_Баянгол_favicon-57.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-60.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/passport_public_Баянгол_favicon-60.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-72.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/passport_public_Баянгол_favicon-72.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-114.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/passport_public_Баянгол_favicon-114.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-120.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/passport_public_Баянгол_favicon-120.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-144.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/passport_public_Баянгол_favicon-144.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-152.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/passport_public_Баянгол_favicon-152.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-180.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/passport_public_Баянгол_favicon-180.png",
+          "success": true
+        }
+      ]
+    },
+    {
+      "page_id": 365,
+      "url": "https://mcud.gov.mn/p/365",
+      "metadata": {
+        "id": 365,
+        "district": "Баянзүрх",
+        "type": "public"
+      },
+      "scraped_at": "2026-06-17T11:55:05.735562",
+      "files": [
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon.ico",
+          "text": "unknown",
+          "extension": ".ico",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/passport_public_Баянзүрх_favicon.ico",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-196.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/passport_public_Баянзүрх_favicon-196.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-32.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/passport_public_Баянзүрх_favicon-32.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-76.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/passport_public_Баянзүрх_favicon-76.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-96.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/passport_public_Баянзүрх_favicon-96.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-128.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/passport_public_Баянзүрх_favicon-128.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-57.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/passport_public_Баянзүрх_favicon-57.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-60.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/passport_public_Баянзүрх_favicon-60.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-72.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/passport_public_Баянзүрх_favicon-72.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-114.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/passport_public_Баянзүрх_favicon-114.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-120.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/passport_public_Баянзүрх_favicon-120.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-144.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/passport_public_Баянзүрх_favicon-144.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-152.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/passport_public_Баянзүрх_favicon-152.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-180.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/passport_public_Баянзүрх_favicon-180.png",
+          "success": true
+        }
+      ]
+    },
+    {
+      "page_id": 366,
+      "url": "https://mcud.gov.mn/p/366",
+      "metadata": {
+        "id": 366,
+        "district": "Сонгинохайрхан",
+        "type": "public"
+      },
+      "scraped_at": "2026-06-17T11:55:06.473484",
+      "files": [
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon.ico",
+          "text": "unknown",
+          "extension": ".ico",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/passport_public_Сонгинохайрхан_favicon.ico",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-196.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/passport_public_Сонгинохайрхан_favicon-196.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-32.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/passport_public_Сонгинохайрхан_favicon-32.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-76.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/passport_public_Сонгинохайрхан_favicon-76.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-96.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/passport_public_Сонгинохайрхан_favicon-96.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-128.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/passport_public_Сонгинохайрхан_favicon-128.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-57.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/passport_public_Сонгинохайрхан_favicon-57.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-60.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/passport_public_Сонгинохайрхан_favicon-60.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-72.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/passport_public_Сонгинохайрхан_favicon-72.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-114.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/passport_public_Сонгинохайрхан_favicon-114.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-120.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/passport_public_Сонгинохайрхан_favicon-120.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-144.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/passport_public_Сонгинохайрхан_favicon-144.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-152.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/passport_public_Сонгинохайрхан_favicon-152.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-180.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/passport_public_Сонгинохайрхан_favicon-180.png",
+          "success": true
+        }
+      ]
+    },
+    {
+      "page_id": 367,
+      "url": "https://mcud.gov.mn/p/367",
+      "metadata": {
+        "id": 367,
+        "district": "Сүхбаатар",
+        "type": "public"
+      },
+      "scraped_at": "2026-06-17T11:55:07.240564",
+      "files": [
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon.ico",
+          "text": "unknown",
+          "extension": ".ico",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/passport_public_Сүхбаатар_favicon.ico",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-196.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/passport_public_Сүхбаатар_favicon-196.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-32.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/passport_public_Сүхбаатар_favicon-32.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-76.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/passport_public_Сүхбаатар_favicon-76.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-96.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/passport_public_Сүхбаатар_favicon-96.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-128.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/passport_public_Сүхбаатар_favicon-128.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-57.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/passport_public_Сүхбаатар_favicon-57.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-60.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/passport_public_Сүхбаатар_favicon-60.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-72.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/passport_public_Сүхбаатар_favicon-72.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-114.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/passport_public_Сүхбаатар_favicon-114.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-120.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/passport_public_Сүхбаатар_favicon-120.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-144.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/passport_public_Сүхбаатар_favicon-144.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-152.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/passport_public_Сүхбаатар_favicon-152.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-180.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/passport_public_Сүхбаатар_favicon-180.png",
+          "success": true
+        }
+      ]
+    },
+    {
+      "page_id": 368,
+      "url": "https://mcud.gov.mn/p/368",
+      "metadata": {
+        "id": 368,
+        "district": "Хан-Уул",
+        "type": "public"
+      },
+      "scraped_at": "2026-06-17T11:55:07.958886",
+      "files": [
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon.ico",
+          "text": "unknown",
+          "extension": ".ico",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/passport_public_Хан-Уул_favicon.ico",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-196.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/passport_public_Хан-Уул_favicon-196.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-32.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/passport_public_Хан-Уул_favicon-32.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-76.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/passport_public_Хан-Уул_favicon-76.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-96.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/passport_public_Хан-Уул_favicon-96.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-128.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/passport_public_Хан-Уул_favicon-128.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-57.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/passport_public_Хан-Уул_favicon-57.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-60.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/passport_public_Хан-Уул_favicon-60.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-72.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/passport_public_Хан-Уул_favicon-72.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-114.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/passport_public_Хан-Уул_favicon-114.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-120.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/passport_public_Хан-Уул_favicon-120.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-144.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/passport_public_Хан-Уул_favicon-144.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-152.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/passport_public_Хан-Уул_favicon-152.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-180.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/passport_public_Хан-Уул_favicon-180.png",
+          "success": true
+        }
+      ]
+    },
+    {
+      "page_id": 369,
+      "url": "https://mcud.gov.mn/p/369",
+      "metadata": {
+        "id": 369,
+        "district": "Чингэлтэй",
+        "type": "public"
+      },
+      "scraped_at": "2026-06-17T11:55:08.626524",
+      "files": [
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon.ico",
+          "text": "unknown",
+          "extension": ".ico",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/passport_public_Чингэлтэй_favicon.ico",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-196.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/passport_public_Чингэлтэй_favicon-196.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-32.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/passport_public_Чингэлтэй_favicon-32.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-76.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/passport_public_Чингэлтэй_favicon-76.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-96.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/passport_public_Чингэлтэй_favicon-96.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-128.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/passport_public_Чингэлтэй_favicon-128.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-57.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/passport_public_Чингэлтэй_favicon-57.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-60.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/passport_public_Чингэлтэй_favicon-60.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-72.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/passport_public_Чингэлтэй_favicon-72.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-114.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/passport_public_Чингэлтэй_favicon-114.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-120.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/passport_public_Чингэлтэй_favicon-120.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-144.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/passport_public_Чингэлтэй_favicon-144.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-152.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/passport_public_Чингэлтэй_favicon-152.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-180.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/passport_public_Чингэлтэй_favicon-180.png",
+          "success": true
+        }
+      ]
+    },
+    {
+      "page_id": 370,
+      "url": "https://mcud.gov.mn/p/370",
+      "metadata": {
+        "id": 370,
+        "district": "Багахангай/Налайх/Багануур",
+        "type": "public"
+      },
+      "scraped_at": "2026-06-17T11:55:09.656239",
+      "files": [
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon.ico",
+          "text": "unknown",
+          "extension": ".ico",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/passport_public_Багахангай_Налайх_Багануур_favicon.ico",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-196.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/passport_public_Багахангай_Налайх_Багануур_favicon-196.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-32.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/passport_public_Багахангай_Налайх_Багануур_favicon-32.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-76.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/passport_public_Багахангай_Налайх_Багануур_favicon-76.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-96.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/passport_public_Багахангай_Налайх_Багануур_favicon-96.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-128.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/passport_public_Багахангай_Налайх_Багануур_favicon-128.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-57.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/passport_public_Багахангай_Налайх_Багануур_favicon-57.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-60.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/passport_public_Багахангай_Налайх_Багануур_favicon-60.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-72.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/passport_public_Багахангай_Налайх_Багануур_favicon-72.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-114.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/passport_public_Багахангай_Налайх_Багануур_favicon-114.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-120.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/passport_public_Багахангай_Налайх_Багануур_favicon-120.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-144.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/passport_public_Багахангай_Налайх_Багануур_favicon-144.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-152.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/passport_public_Багахангай_Налайх_Багануур_favicon-152.png",
+          "success": true
+        },
+        {
+          "url": "https://mcud.gov.mn/resource/mcud/favicon/favicon-180.png",
+          "text": "unknown",
+          "extension": ".png",
+          "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/passport_public_Багахангай_Налайх_Багануур_favicon-180.png",
+          "success": true
+        }
+      ]
+    }
+  ],
+  "known_pdfs": [
+    {
+      "url": "https://mcud.gov.mn/resource/mcud/File/2026/03/26/gqju8nvr1l0cjzq5/%D0%91%D0%90%D0%A0%D0%98%D0%9B%D0%93%D0%90%20%D0%91%D0%90%D0%99%D0%93%D0%A3%D0%A3%D0%9B%D0%90%D0%9C%D0%96%202026.01.30-%D0%9D%D0%AB%20%D3%A8%D0%94%D0%A0%D0%98%D0%99%D0%9D%20%D0%91%D0%90%D0%99%D0%94%D0%9B%D0%90%D0%90%D0%A0%20OPENDATA%201%201.pdf",
+      "type": "construction_work",
+      "desc": "Барилгын ажил эрхлэх тусгай зөвшөөрөл 2026.01.30",
+      "saved_to": "/home/tsogto/Documents/Diploma/mongolian-realestate-advisor/data-pipeline/output/mcud_licenses/БАРИЛГА БАЙГУУЛАМЖ 2026.01.30-НЫ ӨДРИЙН БАЙДЛААР OPENDATA 1 1.pdf",
+      "success": true
+    }
+  ]
+}
