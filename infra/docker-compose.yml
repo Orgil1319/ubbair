@@ -1,7 +1,9 @@
+name: ubbbair
+
 services:
-  # PostgreSQL + PostGIS
   postgres:
-    image: postgis/postgis:16-3.4
+    build: ./postgres
+    image: ubbbair-postgres:16
     environment:
       POSTGRES_DB: ${POSTGRES_DB:?Set POSTGRES_DB in the project .env file}
       POSTGRES_USER: ${POSTGRES_USER:?Set POSTGRES_USER in the project .env file}
@@ -10,14 +12,12 @@ services:
       - "127.0.0.1:${POSTGRES_PORT:-5432}:5432"
     volumes:
       - postgres_data:/var/lib/postgresql/data
-      - ../database/migrations:/docker-entrypoint-initdb.d
     healthcheck:
       test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER} -d ${POSTGRES_DB}"]
-      interval: 10s
+      interval: 5s
       timeout: 5s
-      retries: 5
+      retries: 20
 
-  # Redis cache
   redis:
     image: redis:7-alpine
     ports:
@@ -26,34 +26,64 @@ services:
       - redis_data:/data
     command: redis-server --appendonly yes
 
-  # FastAPI backend
-  backend:
+  seed:
     build:
       context: ../backend
       dockerfile: Dockerfile
-    ports:
-      - "8000:8000"
-    env_file:
-      - ../.env
+    image: ubbbair-backend
+    working_dir: /pipeline
     environment:
       DATABASE_URL: postgresql://${POSTGRES_USER}:${POSTGRES_PASSWORD}@postgres:5432/${POSTGRES_DB}
-      REDIS_URL: redis://redis:6379
+      MIGRATIONS_DIR: /migrations
+      PYTHONDONTWRITEBYTECODE: "1"
+    volumes:
+      - ../data-pipeline:/pipeline:ro
+      - ../database/migrations:/migrations:ro
     depends_on:
       postgres:
         condition: service_healthy
+    command: python seed_demo.py
+    restart: "no"
+
+  backend:
+    image: ubbbair-backend
+    ports:
+      - "8000:8000"
+    env_file:
+      - path: ../.env
+        required: false
+    environment:
+      DATABASE_URL: postgresql://${POSTGRES_USER}:${POSTGRES_PASSWORD}@postgres:5432/${POSTGRES_DB}
+      REDIS_URL: redis://redis:6379
+      LLM_PROVIDER: ${LLM_PROVIDER:-groq}
+      GROQ_API_KEY: ${GROQ_API_KEY:-}
+      OPENAI_API_KEY: ${OPENAI_API_KEY:-}
+    depends_on:
+      seed:
+        condition: service_completed_successfully
       redis:
         condition: service_started
     volumes:
       - ../backend:/app
-      - ../data-pipeline/output:/data-pipeline-output
-      - chroma_data:/data/chromadb
+      - ../data-pipeline/output:/data-pipeline-output:ro
     command: uvicorn app.main:app --host 0.0.0.0 --port 8000 --reload
+    restart: unless-stopped
 
-  # Data pipeline scheduler
-  pipeline:
+  frontend:
     build:
-      context: ../backend
-      dockerfile: Dockerfile
+      context: ../frontend
+      args:
+        API_URL: http://backend:8000
+    image: ubbbair-frontend
+    ports:
+      - "3000:3000"
+    depends_on:
+      - backend
+    restart: unless-stopped
+
+  pipeline:
+    image: ubbbair-backend
+    profiles: ["pipeline"]
     environment:
       DATABASE_URL: postgresql://${POSTGRES_USER}:${POSTGRES_PASSWORD}@postgres:5432/${POSTGRES_DB}
     depends_on:
@@ -66,4 +96,3 @@ services:
 volumes:
   postgres_data:
   redis_data:
-  chroma_data:

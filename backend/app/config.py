@@ -11,6 +11,7 @@ class Settings(BaseSettings):
 
     # AI
     ANTHROPIC_API_KEY: str = ""
+    OPENAI_API_KEY: str = ""
     GROQ_API_KEY: str = ""
     GROQ_MODEL: str = "llama-3.1-8b-instant"  # эсвэл "llama-3.3-70b-versatile"
     LLM_PROVIDER: str = "anthropic"   # "anthropic" | "ollama" | "groq"

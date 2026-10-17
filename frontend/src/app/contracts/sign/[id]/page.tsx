@@ -11,17 +11,24 @@ export default function ContractSignPage() {
   const [loading, setLoading] = useState(true);
   const [sending, setSending] = useState(false);
   const [sent, setSent] = useState(false);
+  const [error, setError] = useState("");
 
   useEffect(() => {
-    getContract(id).then(setContract).finally(() => setLoading(false));
+    getContract(id).then(setContract).catch(() => setContract(null)).finally(() => setLoading(false));
   }, [id]);
 
   const handleSendForSign = async () => {
     if (!contract) return;
     setSending(true);
-    await sendForSigning(id);
-    setSent(true);
-    setSending(false);
+    setError("");
+    try {
+      await sendForSigning(id);
+      setSent(true);
+    } catch (e) {
+      setError((e as Error).message);
+    } finally {
+      setSending(false);
+    }
   };
 
   if (loading) return <div className="max-w-2xl mx-auto px-4 py-12 text-center text-slate-400 text-sm">Уншиж байна...</div>;
@@ -31,11 +38,15 @@ export default function ContractSignPage() {
     return (
       <div className="max-w-2xl mx-auto px-4 py-16 text-center">
         <div className="text-5xl mb-4">📨</div>
-        <h2 className="text-xl font-bold text-slate-900 mb-2">Гарын үсэг зурах хүсэлт илгээгдлээ</h2>
+        <h2 className="text-xl font-bold text-slate-900 mb-2">Гэрээ гарын үсэг зурах шатанд шилжлээ</h2>
         <p className="text-slate-500 text-sm mb-6">
-          {contract.ownerEmail} болон {contract.tenantEmail} хаягт и-мэйл илгээгдлээ.
-          Талууд гарын үсэг зурсаны дараа гэрээ хүчинтэй болно.
+          PDF-ийг татаж {contract.ownerEmail || "байрны эзэн"} болон {contract.tenantEmail || "түрээслэгч"} руу илгээнэ үү.
+          И-мэйл автоматаар илгээх үйлчилгээ одоогоор холбогдоогүй байна.
+          Талууд гарын үсэг зурсны дараа гэрээ хүчинтэй болно.
         </p>
+        <a href={`/api/contracts/${id}/pdf`} target="_blank" className="btn-secondary inline-block text-sm mb-6">
+          📄 PDF татах
+        </a>
         <div className="card p-5 bg-amber-50 border-amber-200 text-left text-sm">
           <div className="font-semibold text-amber-900 mb-2">⚠️ Чухал дараагийн алхам</div>
           <p className="text-amber-800 mb-3">
@@ -126,6 +137,9 @@ export default function ContractSignPage() {
           {sending ? "Явуулж байна..." : "✉️ Гарын үсгийн хүсэлт явуулах"}
         </button>
       </div>
+      {error && (
+        <div className="card p-4 mt-4 bg-red-50 border-red-200 text-sm text-red-700">{error}</div>
+      )}
     </div>
   );
 }

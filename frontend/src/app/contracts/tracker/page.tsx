@@ -3,15 +3,25 @@
 import { useState, useEffect } from "react";
 import Link from "next/link";
 import LeaseTimeline from "@/components/LeaseTimeline";
-import { getContracts } from "@/lib/api";
+import { getContracts, isAuthenticated } from "@/lib/api";
 import type { Contract } from "@/lib/api";
 
 export default function ContractTrackerPage() {
   const [contracts, setContracts] = useState<Contract[]>([]);
   const [loading, setLoading] = useState(true);
+  const [needsLogin, setNeedsLogin] = useState(false);
+  const [error, setError] = useState("");
 
   useEffect(() => {
-    getContracts().then(setContracts).finally(() => setLoading(false));
+    if (!isAuthenticated()) {
+      setNeedsLogin(true);
+      setLoading(false);
+      return;
+    }
+    getContracts()
+      .then(setContracts)
+      .catch((e: Error) => setError(e.message))
+      .finally(() => setLoading(false));
   }, []);
 
   const getDaysLeft = (endDate: string) => {
@@ -32,7 +42,17 @@ export default function ContractTrackerPage() {
         </Link>
       </div>
 
-      {contracts.length === 0 ? (
+      {needsLogin ? (
+        <div className="card p-16 text-center text-slate-500">
+          <div className="text-4xl mb-3">🔐</div>
+          <p className="text-sm">Гэрээнүүдээ харахын тулд нэвтэрнэ үү.</p>
+          <Link href="/login" className="text-blue-600 text-sm mt-2 inline-block hover:underline">
+            Нэвтрэх →
+          </Link>
+        </div>
+      ) : error ? (
+        <div className="card p-6 text-center text-sm text-red-700 bg-red-50 border-red-200">{error}</div>
+      ) : contracts.length === 0 ? (
         <div className="card p-16 text-center text-slate-400">
           <div className="text-4xl mb-3">📄</div>
           <p className="text-sm">Гэрээ байхгүй байна.</p>

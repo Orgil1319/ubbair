@@ -12,6 +12,7 @@
 """
 
 import asyncio
+import os
 import asyncpg
 import logging
 import re
@@ -23,7 +24,7 @@ from typing import Optional
 
 logger = logging.getLogger(__name__)
 
-DB_URL = "postgresql://user:password@localhost:5432/realestate"
+DB_URL = os.environ.get("DATABASE_URL", "postgresql://user:password@localhost:5432/realestate")
 
 
 def read_excel(path: Path) -> list[dict]:

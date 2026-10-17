@@ -84,7 +84,7 @@ function SearchContent() {
         <p className="text-sm text-slate-500 mt-1">Үнэ, эрсдэл, компаниудын түүхийг нэг дор шалгана.</p>
       </div>
 
-      <div className="grid lg:grid-cols-2 gap-6">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
         {/* Left Side: Search and List */}
         <div className="flex flex-col h-[calc(100vh-160px)]">
           {/* Search bar */}

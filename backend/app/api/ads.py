@@ -44,7 +44,8 @@ def row_to_ad(row) -> dict:
     }
 
 
-@router.get("/")
+@router.get("")
+@router.get("/", include_in_schema=False)
 async def list_ads(request: Request, q: Optional[str] = None):
     """Approved ads for public listing."""
     try:
@@ -154,7 +155,8 @@ async def get_admin_stats(request: Request):
         raise HTTPException(status_code=500, detail=str(exc))
 
 
-@router.post("/")
+@router.post("")
+@router.post("/", include_in_schema=False)
 async def create_ad(
     request: Request,
     title: str = Form(...),

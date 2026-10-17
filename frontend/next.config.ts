@@ -1,15 +1,21 @@
 import type { NextConfig } from "next";
 
+const API_URL = (process.env.API_URL ?? "http://localhost:8000").replace(/\/+$/, "");
+
 const nextConfig: NextConfig = {
+  output: "standalone",
+  experimental: {
+    proxyTimeout: 120000,
+  },
   async rewrites() {
     return [
       {
-        source: "/api/gis/:path*",
-        destination: `${process.env.API_URL ?? "http://localhost:8000"}/gis/:path*`,
+        source: "/api/:path*",
+        destination: `${API_URL}/api/:path*`,
       },
       {
-        source: "/api/contracts/:id/pdf",
-        destination: `${process.env.API_URL ?? "http://localhost:8000"}/contracts/:id/pdf`,
+        source: "/uploads/:path*",
+        destination: `${API_URL}/uploads/:path*`,
       },
     ];
   },

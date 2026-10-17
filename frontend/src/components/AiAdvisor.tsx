@@ -2,7 +2,7 @@
 
 import { useState, useRef, useEffect } from "react";
 
-const API_URL = process.env.NEXT_PUBLIC_API_URL ?? "http://localhost:8000";
+const API_URL = process.env.NEXT_PUBLIC_API_URL ?? "";
 
 interface Message {
   role: "user" | "assistant";
@@ -57,7 +57,11 @@ export default function AiAdvisor({ propertyId, propertyTitle, riskScore }: Prop
         }),
       });
 
-      if (!res.ok) throw new Error(`AI API error: ${res.status}`);
+      if (!res.ok) {
+        const body = await res.json().catch(() => null);
+        setMessages((m) => [...m, { role: "assistant", content: body?.detail ?? "Алдаа гарлаа. Дахин оролдоно уу." }]);
+        return;
+      }
 
       const data = await res.json();
       setMessages((m) => [...m, { role: "assistant", content: data.response ?? "Алдаа гарлаа." }]);

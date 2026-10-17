@@ -35,14 +35,18 @@ export default function AIChatbot() {
     setIsLoading(true);
 
     try {
-      const API_URL = process.env.NEXT_PUBLIC_API_URL ?? "http://localhost:8000";
+      const API_URL = process.env.NEXT_PUBLIC_API_URL ?? "";
       const res = await fetch(`${API_URL}/api/ai/chat`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ messages: newMessages }),
       });
 
-      if (!res.ok) throw new Error("API алдаа гарлаа");
+      if (!res.ok) {
+        const body = await res.json().catch(() => null);
+        setMessages([...newMessages, { role: "assistant", content: body?.detail ?? "Уучлаарай, алдаа гарлаа. Дараа дахин оролдоно уу." }]);
+        return;
+      }
       
       const data = await res.json();
       setMessages([...newMessages, { role: "assistant", content: data.response }]);

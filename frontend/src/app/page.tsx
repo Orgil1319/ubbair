@@ -98,7 +98,7 @@ export default function HomePage() {
 
       {/* Hero Section */}
       <section className="relative z-10 pt-32 pb-20 px-6 min-h-[85vh] flex flex-col justify-center items-center text-center">
-        <div className="max-w-4xl mx-auto">
+        <div className="max-w-4xl w-full mx-auto">
           <div className="eyebrow mb-8">
             <span className="w-2 h-2 rounded-full bg-blue-600 animate-pulse" />
             AI-д суурилсан үл хөдлөхийн зөвлөгч
@@ -123,9 +123,9 @@ export default function HomePage() {
                 value={query}
                 onChange={(e) => setQuery(e.target.value)}
                 placeholder="Хаяг, дүүрэг, барилгын нэрээр хайх..."
-                className="flex-1 bg-transparent pl-12 pr-4 py-4 text-slate-900 text-base focus:outline-none placeholder:text-slate-400"
+                className="flex-1 min-w-0 bg-transparent pl-12 pr-4 py-4 text-slate-900 text-base focus:outline-none placeholder:text-slate-400"
               />
-              <button type="submit" className="btn-primary px-8 whitespace-nowrap text-base shadow-lg shadow-blue-600/20">
+              <button type="submit" className="btn-primary px-5 sm:px-8 whitespace-nowrap text-base shadow-lg shadow-blue-600/20">
                 Хайх
               </button>
             </form>

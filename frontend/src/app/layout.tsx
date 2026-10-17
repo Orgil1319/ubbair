@@ -1,18 +1,7 @@
 import type { Metadata } from "next";
-import { Inter, Noto_Sans_Mongolian } from "next/font/google";
+import "@fontsource-variable/inter";
 // @ts-ignore: side-effect import of global CSS without type declarations
 import "./globals.css";
-
-const inter = Inter({
-  subsets: ["latin"],
-  variable: "--font-inter",
-});
-
-const notoMongolian = Noto_Sans_Mongolian({
-  subsets: ["latin"],
-  variable: "--font-mongolian",
-  weight: "400",
-});
 
 export const metadata: Metadata = {
   title: "УБ Байр — Аюулгүй байрны зөвлөгч",
@@ -30,10 +19,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="mn" className={`${inter.variable} ${notoMongolian.variable}`}>
+    <html lang="mn">
       <body className="bg-slate-50 text-slate-900 antialiased flex min-h-screen">
         <Sidebar />
-        <main className="flex-1 ml-64 min-w-0 relative">
+        <main className="flex-1 md:ml-64 pt-14 md:pt-0 min-w-0 relative">
           {children}
         </main>
         <AIChatbot />

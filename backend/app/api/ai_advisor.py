@@ -1,12 +1,31 @@
 from fastapi import APIRouter, HTTPException
 from pydantic import BaseModel
 from typing import Optional
+from app.config import settings
 from app.services.claude_service import ClaudeService
 import logging
 
 router = APIRouter()
 logger = logging.getLogger(__name__)
-claude = ClaudeService()
+_claude: Optional[ClaudeService] = None
+
+
+def ai_configured() -> bool:
+    if (settings.LLM_PROVIDER or "groq").lower() == "openai":
+        return bool(settings.OPENAI_API_KEY)
+    return bool(settings.GROQ_API_KEY)
+
+
+def get_claude() -> ClaudeService:
+    global _claude
+    if not ai_configured():
+        raise HTTPException(
+            status_code=503,
+            detail="AI зөвлөгч тохируулагдаагүй байна. .env файлд GROQ_API_KEY оруулаад backend-ээ дахин асаана уу.",
+        )
+    if _claude is None:
+        _claude = ClaudeService()
+    return _claude
 
 
 class ChatMessage(BaseModel):
@@ -37,6 +56,7 @@ async def chat(request: ChatRequest):
     """
     Байрны зөвлөгчтэй чат. property_context байвал тухайн байрны мэдээлэлтэй хариулна.
     """
+    claude = get_claude()
     try:
         messages = [{"role": m.role, "content": m.content} for m in request.messages]
         response = await claude.chat(messages, request.property_context)
@@ -51,6 +71,7 @@ async def explain_legal_rights(request: LegalRequest):
     """
     Нөхцөл байдлаар түрээслэгчийн эрх, хуулийн мэдээлэл тайлбарлана.
     """
+    claude = get_claude()
     try:
         explanation = await claude.explain_legal_rights(request.situation)
         return {"explanation": explanation}
@@ -64,6 +85,7 @@ async def explain_price(request: PriceExplainRequest):
     """
     Байрны үнийг зах зээлтэй харьцуулан AI тайлбар гаргана.
     """
+    claude = get_claude()
     try:
         explanation = await claude.analyze_price_fairness(
             request.property_price,

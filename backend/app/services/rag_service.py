@@ -28,20 +28,27 @@ LEGAL_TOPICS = {
 }
 
 
+def psycopg_url(url: str) -> str:
+    for prefix in ("postgresql+asyncpg://", "postgresql+psycopg2://", "postgresql+psycopg://", "postgresql://", "postgres://"):
+        if url.startswith(prefix):
+            return "postgresql+psycopg://" + url[len(prefix):]
+    return url
+
+
 class RAGService:
     def __init__(self, collection_name: str = "mongolian_civil_law"):
         self.collection_name = collection_name
         
-        # OpenAI Embeddings
-        api_key = os.environ.get("OPENAI_API_KEY")
+        api_key = settings.OPENAI_API_KEY or os.environ.get("OPENAI_API_KEY", "")
+        self.connection_string = psycopg_url(settings.DATABASE_URL)
+        self.embeddings = None
+        self.vector_store = None
         if not api_key:
-            logger.warning("OPENAI_API_KEY олдсонгүй, embedding хийх үед алдаа гарч болзошгүй.")
-            
-        self.embeddings = OpenAIEmbeddings(model="text-embedding-3-small")
-        
-        # PostgreSQL холболтын стринг (asyncpg -> psycopg)
-        self.connection_string = settings.DATABASE_URL.replace("+asyncpg", "+psycopg")
-        
+            logger.warning("OPENAI_API_KEY олдсонгүй, RAG-гүй ажиллана.")
+            return
+
+        self.embeddings = OpenAIEmbeddings(model="text-embedding-3-small", api_key=api_key)
+
         try:
             self.vector_store = PGVector(
                 embeddings=self.embeddings,

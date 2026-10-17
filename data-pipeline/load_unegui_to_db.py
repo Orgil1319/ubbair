@@ -1,5 +1,6 @@
 import json
 import logging
+import os
 import re
 import uuid
 from sqlalchemy import create_engine, text
@@ -7,7 +8,7 @@ from sqlalchemy import create_engine, text
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
-DB_URL = "postgresql://user:password@localhost:5432/realestate"
+DB_URL = os.environ.get("DATABASE_URL", "postgresql://user:password@localhost:5432/realestate")
 
 
 def extract_ad_id(url):

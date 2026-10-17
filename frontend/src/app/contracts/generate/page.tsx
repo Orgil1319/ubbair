@@ -58,11 +58,37 @@ function ContractGenerateContent() {
   const [form, setForm] = useState<ContractFormData>({ ...EMPTY, address: params.get("address") ?? "" });
   const [step, setStep] = useState(1);
   const [loading, setLoading] = useState(false);
+  const [error, setError] = useState("");
+  const [pdfUrl, setPdfUrl] = useState("");
 
   const update = (field: keyof ContractFormData, value: string) =>
     setForm((f) => ({ ...f, [field]: value }));
 
+  const REQUIRED: [keyof ContractFormData, string][] = [
+    ["ownerName", "Эзний нэр"],
+    ["ownerRegNum", "Эзний регистр"],
+    ["ownerPhone", "Эзний утас"],
+    ["tenantName", "Түрээслэгчийн нэр"],
+    ["tenantRegNum", "Түрээслэгчийн регистр"],
+    ["tenantPhone", "Түрээслэгчийн утас"],
+    ["address", "Хаяг"],
+    ["area", "Талбай"],
+    ["startDate", "Эхлэх огноо"],
+    ["endDate", "Дуусах огноо"],
+    ["monthlyRent", "Сарын түрээс"],
+  ];
+
   const handleGenerate = async () => {
+    const missing = REQUIRED.filter(([field]) => !form[field].trim()).map(([, label]) => label);
+    if (missing.length > 0) {
+      setError(`Дутуу талбар: ${missing.join(", ")}`);
+      return;
+    }
+    if (form.endDate <= form.startDate) {
+      setError("Дуусах огноо эхлэх огнооноос хойш байх ёстой.");
+      return;
+    }
+    setError("");
     setLoading(true);
     try {
       const payload = {
@@ -88,11 +114,15 @@ function ContractGenerateContent() {
         end_date: form.endDate,
         payment_day: Number(form.paymentDay),
         notice_days: Number(form.noticedays),
+        rooms: form.rooms ? Number(form.rooms) : null,
       };
 
       const pdfBlob = await generateContract(payload);
       const url = URL.createObjectURL(pdfBlob);
+      setPdfUrl(url);
       window.open(url, "_blank");
+    } catch (e) {
+      setError((e as Error).message);
     } finally {
       setLoading(false);
     }
@@ -226,6 +256,22 @@ function ContractGenerateContent() {
           </button>
         )}
       </div>
+
+      {error && (
+        <div className="card p-4 mt-4 bg-red-50 border-red-200 text-sm text-red-700">{error}</div>
+      )}
+
+      {pdfUrl && (
+        <div className="card p-4 mt-4 bg-green-50 border-green-200 text-sm text-green-800 space-y-2">
+          <div className="font-semibold">Гэрээ бэлэн боллоо.</div>
+          <div className="flex flex-wrap gap-3">
+            <a href={pdfUrl} download="lease_contract.pdf" className="btn-secondary text-sm">📄 PDF татах</a>
+            <button onClick={() => router.push("/contracts/tracker")} className="btn-primary text-sm">
+              Миний гэрээнүүд →
+            </button>
+          </div>
+        </div>
+      )}
     </div>
   );
 }
