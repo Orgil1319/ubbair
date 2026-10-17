@@ -16,5 +16,5 @@
     }
   },
   "postCreateCommand": "test -f .env || cp .env.example .env",
-  "postStartCommand": "docker compose --env-file .env -f infra/docker-compose.yml up -d --build"
+  "postStartCommand": "bash .devcontainer/start.sh"
 }

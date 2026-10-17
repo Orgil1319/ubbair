@@ -27,10 +27,8 @@ services:
     command: redis-server --appendonly yes
 
   seed:
-    build:
-      context: ../backend
-      dockerfile: Dockerfile
     image: ubbbair-backend
+    pull_policy: never
     working_dir: /pipeline
     environment:
       DATABASE_URL: postgresql://${POSTGRES_USER}:${POSTGRES_PASSWORD}@postgres:5432/${POSTGRES_DB}
@@ -46,6 +44,9 @@ services:
     restart: "no"
 
   backend:
+    build:
+      context: ../backend
+      dockerfile: Dockerfile
     image: ubbbair-backend
     ports:
       - "8000:8000"
@@ -83,6 +84,7 @@ services:
 
   pipeline:
     image: ubbbair-backend
+    pull_policy: never
     profiles: ["pipeline"]
     environment:
       DATABASE_URL: postgresql://${POSTGRES_USER}:${POSTGRES_PASSWORD}@postgres:5432/${POSTGRES_DB}
